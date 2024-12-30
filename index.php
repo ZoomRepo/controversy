@@ -2,7 +2,7 @@
 // Database connection
 $servername = "localhost";
 $username = "root"; // Update with your MySQL username
-$password = ""; // Update with your MySQL password
+$password = "A1-cxurnk"; // Update with your MySQL password
 $dbname = "controversial_deaths";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Fetch deaths in chronological order
-$sql = "SELECT * FROM deaths WHERE hide != 1 ORDER BY death_date DESC;";
+$sql = "SELECT * FROM deaths WHERE hide != 1 ORDER BY death_date DESC";
 $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ $result = $conn->query($sql);
 <body>
     <div class="container my-5">
         <header class="text-center mb-4">
-            <h1 class="display-4">Controversial Deaths 2024</h1>
+            <h1 class="display-4">Controversial Deaths</h1>
             <p class="lead">Unveiling the hidden truths behind eerie fates</p>
         </header>
         <div class="row">

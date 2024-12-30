@@ -1,0 +1,51 @@
+/* custom.css */
+body {
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #f1f1f1; /* Light gray text for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ff4d4d; /* Blood red for headings */
+}
+
+.card {
+    background-color: #2c2c2c; /* Darker card background */
+    color: #f1f1f1;
+    border: 1px solid #444; /* Subtle border for cards */
+}
+
+.card-title {
+    color: #ff4d4d; /* Blood red for titles */
+}
+
+.btn-primary {
+    background-color: #661313; /* Deep red for primary buttons */
+    border-color: #661313;
+}
+
+.btn-primary:hover {
+    background-color: #990000; /* Slightly brighter on hover */
+    border-color: #990000;
+}
+
+.btn-success {
+    background-color: #444; /* Muted green-gray for secondary actions */
+    border-color: #444;
+}
+
+.btn-success:hover {
+    background-color: #666; /* Slightly brighter on hover */
+    border-color: #666;
+}
+
+.alert-info {
+    background-color: #333; /* Dark alert background */
+    color: #fff; /* Light text for alerts */
+    border: 1px solid #444; /* Border for alert boxes */
+}
+
+.card img {
+    height: 300px; /* Forces height */
+    width: 100%; /* Ensures it spans the full card width */
+    object-fit: cover; /* Crops the image to fit without distortion */
+}
